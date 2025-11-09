@@ -101,7 +101,9 @@
         > 랜덤 트래픽 데이터 전송 </div>
      
         
-        > <div align="center"> <img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" /> 서버 라즈베리파이 모니터 화면 </div>
+        > <div align="center"> <img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" /> 
+        > <br>
+        > 서버 라즈베리파이 모니터 화면 </div>
         
 
     
