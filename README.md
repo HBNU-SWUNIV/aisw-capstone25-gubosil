@@ -7,11 +7,11 @@
 
 ![Image](https://github.com/user-attachments/assets/65be6c2f-ab7c-4f51-97ab-f32b18f70030)
 ![Image](https://github.com/user-attachments/assets/3af84078-8887-4322-a0c0-a4207e9149a6)
-<img width="975" height="543" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
+
 ![Image](https://github.com/user-attachments/assets/a1f1a176-7b85-4279-8700-bf1b141f6c3d)
 
 ![Image](https://github.com/user-attachments/assets/08f49cd8-0bbe-425d-85f7-64512c31616e)
-<img width="975" height="543" alt="Image" src="https://github.com/user-attachments/assets/e23281e7-97a2-447f-88b6-01b3ff8c29c4" />
+
   
 ## <u>Teamate</u> Project Background
 - ### 필요성
@@ -99,6 +99,10 @@
         > </div>
         
       - **클라이언트 라즈베리파이**: AI 모델을 통해 실시간으로 이상 트래픽과 정상 트래픽을 탐지하고 모니터에 알림을 띄운다.
+        > <div align="center"> <img width="975" height="543" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
+        > <br>
+        > 포트 개방 및 대기
+        > </div>
   
   
 ## Conclusion
