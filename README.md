@@ -91,7 +91,7 @@
           > 전체 환경 구조 (라즈베리파이와 모니터 사용)
           > </div>
 
-      <br>
+      
       - **서버 라즈베리파이**: 랜덤 트래픽 데이터를 정하고, 모니터의 버튼을 눌러 클라이언트 라즈베리파이에 데이터를 전송한다.
 
         > <div align="center"> <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
