@@ -95,7 +95,11 @@
 
 
       - **서버 라즈베리파이**: 랜덤 트래픽 데이터를 정하고, 모니터의 버튼을 눌러 클라이언트 라즈베리파이에 데이터를 전송한다.
-
+        > <div align="center"> <img width="423" height="217" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
+        > <br>
+        > 랜덤 트래픽 데이터 전송
+        > </div>
+        
       - **클라이언트 라즈베리파이**: AI 모델을 통해 실시간으로 이상 트래픽과 정상 트래픽을 탐지하고 모니터에 알림을 띄운다.
   
   
