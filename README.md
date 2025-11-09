@@ -6,8 +6,6 @@
 - 20221073 정은주
 
 
-<img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" />
-<img width="559" height="227" alt="Image" src="https://github.com/user-attachments/assets/203ad61e-b3d7-4af8-95eb-9d1c83cad600" />
   
 ## <u>Teamate</u> Project Background
 - ### 필요성
@@ -100,7 +98,7 @@
         > <br>
         > 랜덤 트래픽 데이터 전송 </div>
      
-        
+      
         > <div align="center"> <img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" /> 
         > <br>
         > 서버 라즈베리파이 모니터 화면 </div>
@@ -116,6 +114,12 @@
         > <br>
         > 포트 개방 및 대기
         > </div>
+     
+        
+        > <div align="center">  <img width="559" height="227" alt="Image" src="https://github.com/user-attachments/assets/203ad61e-b3d7-4af8-95eb-9d1c83cad600" />
+        > <br>
+        > 클라이언트 라즈베리파이 모니터 화면 </div>
+
   
   
 ## Conclusion
