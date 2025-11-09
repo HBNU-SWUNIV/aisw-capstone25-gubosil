@@ -103,6 +103,11 @@
         > <div align="center"> <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
         > <br>
         > 랜덤 트래픽 데이터 전송 </div>
+        ![Image](https://github.com/user-attachments/assets/65be6c2f-ab7c-4f51-97ab-f32b18f70030)
+        ![Image](https://github.com/user-attachments/assets/3af84078-8887-4322-a0c0-a4207e9149a6)
+        
+
+    
 
         
 
