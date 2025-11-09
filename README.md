@@ -99,7 +99,7 @@
         > </div>
         
       - **클라이언트 라즈베리파이**: AI 모델을 통해 실시간으로 이상 트래픽과 정상 트래픽을 탐지하고 모니터에 알림을 띄운다.
-        > <div align="center"> <img width="975" height="543" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
+        > <div align="center"> <img width="775" height="343" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
         > <br>
         > 포트 개방 및 대기
         > </div>
