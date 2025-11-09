@@ -98,7 +98,7 @@
 
         > <div align="center"> <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
         > <br>
-        > 랜덤 트래픽 데이터 전송 </div>
+        > 랜덤 트래픽 데이터 전송
         > <img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" /> </div>
         
 
