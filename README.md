@@ -5,13 +5,9 @@
 - 20221046 김서연
 - 20221073 정은주
 
-![Image](https://github.com/user-attachments/assets/65be6c2f-ab7c-4f51-97ab-f32b18f70030)
-![Image](https://github.com/user-attachments/assets/3af84078-8887-4322-a0c0-a4207e9149a6)
 
-![Image](https://github.com/user-attachments/assets/a1f1a176-7b85-4279-8700-bf1b141f6c3d)
-
-![Image](https://github.com/user-attachments/assets/08f49cd8-0bbe-425d-85f7-64512c31616e)
-
+<img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" />
+<img width="559" height="227" alt="Image" src="https://github.com/user-attachments/assets/203ad61e-b3d7-4af8-95eb-9d1c83cad600" />
   
 ## <u>Teamate</u> Project Background
 - ### 필요성
@@ -103,7 +99,7 @@
         > <div align="center"> <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
         > <br>
         > 랜덤 트래픽 데이터 전송 </div>
-        > ![Image](https://github.com/user-attachments/assets/65be6c2f-ab7c-4f51-97ab-f32b18f70030) ![Image](https://github.com/user-attachments/assets/3af84078-8887-4322-a0c0-a4207e9149a6) </div>
+        > <img width="561" height="221" alt="Image" src="https://github.com/user-attachments/assets/1260b27a-6be1-4e46-b553-292009382530" /> </div>
         
 
     
