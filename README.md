@@ -48,7 +48,72 @@
 <ul>
   <li>사전 훈련된 경량 PyTorch 모델(<code>enc.pth</code>, <code>clf.pth</code>) 사용</li>
   <li>모델은 입력된 58개 특징 벡터를 분석하여 '정상(0)' 또는 <strong>'이상(1)'</strong>으로 이진 분류</li>
-  <li><code>torch.no_grad()</code> 컨텍스트 내에서 실행도  </div>
+  <li><code>torch.no_grad()</code> 컨텍스트 내에서 실행되어 제한된 자원(라즈베리파이 CPU)에서도 효율적인 추론 수행</li>
+</ul>
+
+<h4>시각화 (Visualization):</h4>
+<ul>
+  <li>탐지 서버(클라이언트 Pi)에 연결된 모니터에 Tkinter 기반의 GUI 출력 </li>
+  <li>모델의 예측 결과에 따라 GUI 화면이 <mark>[정상 (초록색)]</mark> 또는 <strong><mark>[이상 (빨간색)]</mark></strong>으로 즉시 변경, 사용자에게 직관적인 경고 제공</li>
+</ul>
+<hr>
+
+### System Requirements
+<strong>Hardware:</strong>
+<ul>
+  <li>라즈베리파이 2대 (데이터 송신용, 수신/분석용)</li>
+  <li>모니터 1대</li>
+</ul>
+
+<strong>Software (탐지 서버 기준):</strong>
+<ul>
+  <li>Python 3.x</li>
+  <li>필수 라이브러리: <code>torch</code> (PyTorch), <code>numpy</code></li>
+</ul>
+
+<strong>필수 파일:</strong>
+<ul>
+  <li><code>server_gui.py</code>: 메인 서버 및 GUI 애플리케이션</li>
+  <li><code>enc.pth</code>: 훈련된 인코더 모델 가중치</li>
+  <li><code>clf.pth</code>: 훈련된 분류기 모델 가중치</li>
+</ul>
+<hr>
+    
+## Case Study
+
+  - ### Description
+    - ### 실험 환경 구성
+      - 두 대의 라즈베리파이를 사용하여, 하나는 트래픽을 생성하는 송신 장치로, 다른 하나는 AI 기반 이상 탐지 시스템으로 구성하였다.
+        
+          > 라즈베리파이는 실제 IoT 환경을 가정하여 저전력·소형 하드웨어에서의 실시간 동작 가능성을 검증하기 위해 사용되었다.
+          > <div align="center"> <img width="528" height="250" alt="Images" src="https://github.com/user-attachments/assets/01cf1670-470c-429e-8453-a399beeaec65" />
+          > <br>
+          > 전체 환경 구조 (라즈베리파이와 모니터 사용)
+          > </div>
+
+
+      - **서버 라즈베리파이**: 랜덤 트래픽 데이터를 정하고, 모니터의 버튼을 눌러 클라이언트 라즈베리파이에 데이터를 전송한다.
+        > <div align="center"> <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
+        > <br>
+        > 랜덤 트래픽 데이터 전송
+        > </div>
+        
+      - **클라이언트 라즈베리파이**: AI 모델을 통해 실시간으로 이상 트래픽과 정상 트래픽을 탐지하고 모니터에 알림을 띄운다.
+        > <div align="center"> <img width="575" height="343" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
+        > <br>
+        > 포트 개방 및 대기
+        > </div>
+  
+  
+## Conclusion
+
+  - ### 연구결과
+
+    - AI 기반 이상 트래픽 탐지 모델을 설계하고, 라즈베리파이를 활용하여 저전력 하드웨어 환경에서도 실시간으로 안정적 동작이 가능한 이상 트래픽 탐지 시스템을 구현하였다.
+
+    - 네트워크 상의 비정상적인 트래픽을 실시간으로 탐지하고 이에 대응할 수 있는 그래픽 사용자 인터페이스(GUI)를 개발하여, 관리자와 사용자가 직관적으로 이상 트래픽 상태를 인식하고 대응할 수 있는 환경을 구현하였다.
+  <img width="1682" height="1017" alt="Image" src="https://github.com/user-attachments/assets/534e10e4-6343-41f6-9e64-c0bb87398cc4" />
+  <div align="center"> 시스템 동작 흐름  </div>
 
 
   - ### 기대효과
