@@ -19,35 +19,53 @@
 &rArr; 본 시스템은 이러한 문제점을 해결하기 위해 **실시간**으로 **트래픽 흐름 패턴**을 **딥러닝 모델**로 분석
   
 ## System Design
-  - ### System Requirements
-    - <h4>데이터 송신부 (Server Raspberry Pi):</h4>
+   - <h4>데이터 송신부 (Server Raspberry Pi):</h4>
 <ul>
-  <li>실시간 네트워크 트래픽을 생성하거나 수집합니다.</li>
-  <li>수집된 데이터를 AI 모델이 학습한 <strong>58개의 특징(feature)</strong> 벡터로 전처리합니다.</li>
-  <li>이 58개 특징 리스트를 JSON 형식으로 직렬화하여 '이상 탐지 서버' (클라이언트 Pi)로 1초마다 전송합니다.</li>
+  <li>모델 test에 사용된 데이터 중 랜덤한 트래픽 송신</li>
+  <li>해당 데이터는 <strong>58개의 특징(feature)</strong> 벡터로 구성</li>
+  <li> 58개 특징 리스트를 JSON 형식으로 직렬화하여 '이상 탐지 서버' (클라이언트 Pi)로 1초마다 전송</li>
 </ul>
 
 <h4>이상 탐지 서버 (Client Raspberry Pi):</h4>
 <ul>
-  <li>이 프로젝트의 핵심인 <code>server_gui.py</code> 코드가 실행되는 장치입니다.</li>
-  <li>TCP/IP (<code>0.0.0.0:5000</code>) 소켓을 열어 데이터 수신을 대기합니다.</li>
-  <li>데이터 송신부로부터 58개 특징이 담긴 JSON 데이터를 수신합니다.</li>
-  <li>수신한 데이터를 즉시 PyTorch 텐서(<code>torch.tensor</code>)로 변환합니다.</li>
+  <li>TCP/IP 소켓을 열어 데이터 수신 대기</li>
+  <li>데이터 송신부로부터 58개 특징이 담긴 JSON 데이터 수신</li>
+  <li>수신한 데이터를 즉시 PyTorch 텐서(<code>torch.tensor</code>)로 변환</li>
 </ul>
 
 <h4>AI 모델 (Model):</h4>
 <ul>
-  <li>사전 훈련된 경량 PyTorch 모델(<code>enc.pth</code>, <code>clf.pth</code>)을 사용합니다.</li>
-  <li>모델은 입력된 58개 특징 벡터를 분석하여 '정상(0)' 또는 <strong>'이상(1)'</strong>으로 이진 분류(Binary Classification)합니다.</li>
-  <li><code>torch.no_grad()</code> 컨텍스트 내에서 실행되어 제한된 자원(라즈베리파이 CPU)에서도 효율적인 추론(inference)을 수행합니다.</li>
+  <li>사전 훈련된 경량 PyTorch 모델(<code>enc.pth</code>, <code>clf.pth</code>) 사용</li>
+  <li>모델은 입력된 58개 특징 벡터를 분석하여 '정상(0)' 또는 <strong>'이상(1)'</strong>으로 이진 분류</li>
+  <li><code>torch.no_grad()</code> 컨텍스트 내에서 실행되어 제한된 자원(라즈베리파이 CPU)에서도 효율적인 추론 수행</li>
 </ul>
 
 <h4>시각화 (Visualization):</h4>
 <ul>
-  <li>탐지 서버(클라이언트 Pi)에 연결된 모니터에 Tkinter 기반의 GUI를 출력합니다. </li>
-  <li>모델의 예측 결과에 따라 GUI 화면이 <mark>[정상 (초록색)]</mark> 또는 <strong><mark>[이상 (빨간색)]</mark></strong>으로 즉시 변경되어 사용자에게 직관적인 경고를 제공합니다.</li>
+  <li>탐지 서버(클라이언트 Pi)에 연결된 모니터에 Tkinter 기반의 GUI 출력 </li>
+  <li>모델의 예측 결과에 따라 GUI 화면이 <mark>[정상 (초록색)]</mark> 또는 <strong><mark>[이상 (빨간색)]</mark></strong>으로 즉시 변경, 사용자에게 직관적인 경고 제공</li>
+</ul>
+<hr>
+
+### System Requirements
+<strong>Hardware:</strong>
+<ul>
+  <li>라즈베리파이 2대 (데이터 송신용, 수신/분석용)</li>
+  <li>모니터 1대</li>
 </ul>
 
+<strong>Software (탐지 서버 기준):</strong>
+<ul>
+  <li>Python 3.x</li>
+  <li>필수 라이브러리: <code>torch</code> (PyTorch), <code>numpy</code></li>
+</ul>
+
+<strong>필수 파일:</strong>
+<ul>
+  <li><code>server_gui.py</code>: 메인 서버 및 GUI 애플리케이션</li>
+  <li><code>enc.pth</code>: 훈련된 인코더 모델 가중치</li>
+  <li><code>clf.pth</code>: 훈련된 분류기 모델 가중치</li>
+</ul>
 <hr>
     
 ## Case Study
