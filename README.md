@@ -22,7 +22,7 @@
 &rArr; 본 시스템은 이러한 문제점을 해결하기 위해 **실시간**으로 **트래픽 흐름 패턴**을 **딥러닝 모델**로 분석
   
 ## System Design
-<img width="528" height="250" alt="시스템 구조도" src="https://github.com/user-attachments/assets/01cf1670-470c-429e-8453-a399beeaec65" />
+<img width="528" height="250" alt="Images" src="https://github.com/user-attachments/assets/01cf1670-470c-429e-8453-a399beeaec65" />
    - <h4>데이터 송신부 (Server Raspberry Pi):</h4>
 <ul>
   <li>모델 test에 사용된 데이터 중 랜덤한 트래픽 송신</li>
