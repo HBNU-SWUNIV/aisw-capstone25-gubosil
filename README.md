@@ -113,7 +113,7 @@
 
     - 네트워크 상의 비정상적인 트래픽을 실시간으로 탐지하고 이에 대응할 수 있는 그래픽 사용자 인터페이스(GUI)를 개발하여, 관리자와 사용자가 직관적으로 이상 트래픽 상태를 인식하고 대응할 수 있는 환경을 구현하였다.
   <img width="1682" height="1017" alt="Image" src="https://github.com/user-attachments/assets/534e10e4-6343-41f6-9e64-c0bb87398cc4" />
-  <div align="center"> 시스템 동작 흐름  </div>
+  <div align="center"> 전체 결과 동작 흐름  </div>
 
 
   - ### 기대효과
