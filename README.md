@@ -5,9 +5,7 @@
 - 20221046 김서연
 - 20221073 정은주
 
-<img width="660" height="479" alt="Image" src="https://github.com/user-attachments/assets/d96306d2-f3d5-4b4c-bf1d-9ec4d0aa7fdb" />
 ![Image](https://github.com/user-attachments/assets/65be6c2f-ab7c-4f51-97ab-f32b18f70030)
-<img width="659" height="474" alt="Image" src="https://github.com/user-attachments/assets/218faf8b-703d-4219-a299-c2ce34ee8a91" />
 ![Image](https://github.com/user-attachments/assets/3af84078-8887-4322-a0c0-a4207e9149a6)
 <img width="975" height="543" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
 ![Image](https://github.com/user-attachments/assets/a1f1a176-7b85-4279-8700-bf1b141f6c3d)
