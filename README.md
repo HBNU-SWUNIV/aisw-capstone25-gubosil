@@ -99,18 +99,18 @@
 
 
       - **서버 라즈베리파이**: 랜덤 트래픽 데이터 전송
-        > <div align="center">
-        > <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
-        > <br>
-        > 랜덤 트래픽 데이터를 정하고, 모니터의 버튼을 눌러 클라이언트 라즈베리파이에 데이터를 전송합니다.
-        > </div>
+          > <div align="center">
+          > <img width="523" height="317" alt="Image" src="https://github.com/user-attachments/assets/dd79a3e8-fbf4-42bd-89c7-a1962b6c41c9" />
+          > <br>
+          > 랜덤 트래픽 데이터를 정하고, 모니터의 버튼을 눌러 클라이언트 라즈베리파이에 데이터를 전송합니다.
+          > </div>
         
       - **클라이언트 라즈베리파이**: 포트 개방 및 대기
-        > <div align="center">
-        > <img width="575" height="343" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
-        > <br>
-        > AI 모델을 통해 실시간으로 이상 트래픽과 정상 트래픽을 탐지하고 모니터에 알림을 띄우기 위해 포트를 개방하고 대기합니다.
-        > </div>
+          > <div align="center">
+          > <img width="575" height="343" alt="Image" src="https://github.com/user-attachments/assets/48b7fe0f-d0d5-4c9e-a6dc-c45849b8a3b2" />
+          > <br>
+          > AI 모델을 통해 실시간으로 이상 트래픽과 정상 트래픽을 탐지하고 모니터에 알림을 띄우기 위해 포트를 개방하고 대기합니다.
+          > </div>
   
   
 ## Conclusion
