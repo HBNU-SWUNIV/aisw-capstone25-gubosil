@@ -56,7 +56,7 @@
 <h4>시각화 (Visualization):</h4>
 <ul>
   <li>탐지 서버(클라이언트 Pi)에 연결된 모니터에 Tkinter 기반의 GUI 출력 </li>
-  <li>모델의 예측 결과에 따라 GUI 화면이 <mark>[정상 (초록색)]</mark> 또는 <strong><mark>[이상 (빨간색)]</mark></strong>으로 즉시 변경, 사용자에게 직관적인 경고 제공</li>
+  <li>모델의 예측 결과에 따라 GUI 화면이 <strong><mark>[정상 (초록색)]</mark></strong> 또는 <strong><mark>[이상 (빨간색)]</mark></strong>으로 즉시 변경, 사용자에게 직관적인 경고 제공</li>
 </ul>
 <hr>
 
