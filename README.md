@@ -69,7 +69,6 @@
 
 <strong>Software (탐지 서버 기준):</strong>
 <ul>
-  <li>Python 3.x</li>
   <li>필수 라이브러리: <code>torch</code> (PyTorch), <code>numpy</code></li>
 </ul>
 
