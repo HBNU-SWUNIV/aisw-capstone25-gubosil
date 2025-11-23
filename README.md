@@ -59,26 +59,6 @@
   <li>모델의 예측 결과에 따라 GUI 화면이 <strong><mark>[정상 (초록색)]</mark></strong> 또는 <strong><mark>[이상 (빨간색)]</mark></strong>으로 즉시 변경, 사용자에게 직관적인 경고 제공</li>
 </ul>
 <hr>
-
-### System Requirements
-<strong>Hardware:</strong>
-<ul>
-  <li>라즈베리파이 2대 (데이터 송신용, 수신/분석용)</li>
-  <li>모니터 1대</li>
-</ul>
-
-<strong>Software (탐지 서버 기준):</strong>
-<ul>
-  <li>필수 라이브러리: <code>torch</code> (PyTorch), <code>numpy</code></li>
-</ul>
-
-<strong>필수 파일:</strong>
-<ul>
-  <li><code>server_gui.py</code>: 메인 서버 및 GUI 애플리케이션</li>
-  <li><code>enc.pth</code>: 훈련된 인코더 모델 가중치</li>
-  <li><code>clf.pth</code>: 훈련된 분류기 모델 가중치</li>
-</ul>
-<hr>
     
 ## Case Study
 
