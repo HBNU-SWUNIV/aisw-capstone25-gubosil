@@ -35,7 +35,7 @@
    - <h4>데이터 송신부 (Server Raspberry Pi):</h4>
 <ul>
   <li>모델 test에 사용된 데이터 중 랜덤한 트래픽 송신</li>
-  <li>해당 데이터는 <strong>58개의 특징(feature)</strong> 벡터로 구성</li>
+  <li>해당 데이터는 58개의 특징(feature) 벡터로 구성</li>
   <li> 58개 특징 리스트를 JSON 형식으로 직렬화하여 '이상 탐지 서버' (클라이언트 Pi)로 1초마다 전송</li>
 </ul>
 
@@ -49,7 +49,7 @@
 <h4>AI 모델 (Model):</h4>
 <ul>
   <li>사전 훈련된 경량 PyTorch 모델(<code>enc.pth</code>, <code>clf.pth</code>) 사용</li>
-  <li>모델은 입력된 58개 특징 벡터를 분석하여 '정상(0)' 또는 <strong>'이상(1)'</strong>으로 이진 분류</li>
+  <li>모델은 입력된 58개 특징 벡터를 분석하여 '정상(0)' 또는 '이상(1)'으로 이진 분류</li>
   <li><code>torch.no_grad()</code> 컨텍스트 내에서 실행되어 제한된 자원(라즈베리파이 CPU)에서도 효율적인 추론 수행</li>
 </ul>
 
