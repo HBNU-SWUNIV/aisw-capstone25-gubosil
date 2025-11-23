@@ -32,7 +32,7 @@
 시스템 구조도
 </div>
 
-   - <h4>데이터 송신부 (Server Raspberry Pi):</h4>
+<h4>데이터 송신부 (Server Raspberry Pi):</h4>
 <ul>
   <li>모델 test에 사용된 데이터 중 랜덤한 트래픽 송신</li>
   <li>해당 데이터는 58개의 특징(feature) 벡터로 구성</li>
